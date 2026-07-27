@@ -26,3 +26,15 @@
 - **Short-term:** Implement a memory-based auto-scaling rule (Scale out when Memory > 70%).
 - **Medium-term:** Setup early-detection alerts for memory utilization reaching 80% to warn the team *before* an OOMKilled event occurs.
 - **Long-term:** Profile the application to identify memory bottlenecks or leaks.
+
+## 5. Auto-Scaling Policy
+To prevent repeating this incident, the platform's auto-scaling group must be configured as follows:
+- **Scale-Out Policy:** Add 1 container instance when Average Container Memory > 70% for 2 minutes.
+- **Scale-In Policy:** Remove 1 container instance when Average Container Memory < 40% for 5 minutes.
+- **CPU Backup Policy:** Scale out if Average CPU > 75% for 2 minutes.
+
+## 6. Early Detection
+To detect this issue before the container crashes:
+- Configure alerts on the metric `container_memory_usage_bytes` (or equivalent).
+- **Warning Alert:** Container Memory > 80% (Sustained for > 3 minutes) - triggers Slack/Teams notification.
+- **Critical Alert:** Container Memory > 90% (Sustained for > 2 minutes) - triggers PagerDuty to wake up on-call engineer for immediate manual mitigation.

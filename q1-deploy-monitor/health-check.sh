@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-LOG_FILE="/Users/mac/a1/monitor/monitor.log"
+LOG_FILE="/Users/mac/a1/q1-deploy-monitor/monitor.log"
 
 # Ensure log file exists
 mkdir -p "$(dirname "$LOG_FILE")"

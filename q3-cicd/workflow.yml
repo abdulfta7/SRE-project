@@ -58,3 +58,20 @@ jobs:
         run: |
           echo "Deploying production-${{ github.sha }} to ghaymah systems..."
           # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }} --env production
+
+# =====================================================================
+# Q3 Additional Requirements Documentation
+# =====================================================================
+#
+# 3. Difference between Staging and Production:
+# - Staging (`staging`): A pre-production environment used for QA and integration testing. 
+#   It uses sanitized/dummy data and is scaled down. Deploys happen automatically upon merging to main.
+# - Production (`production`): The live environment for real users. Contains sensitive, live data. 
+#   Requires strict access controls and a **Manual Approval** step in GitHub Actions before deployment.
+#
+# 4. Integration with Ghaymah CLI:
+# To deploy manually or from a runner using the CLI:
+# 1. Install: `curl -sL https://cli.ghaymah.systems/install.sh | bash`
+# 2. Login: `ghaymah login --token $GHAYMAH_TOKEN`
+# 3. Push: `docker push registry.ghaymah.systems/my-org/myapp-api:latest`
+# 4. Deploy: `ghaymah deploy --name myapp-api --image registry.ghaymah.systems/my-org/myapp-api:latest --port 8080 --env production`

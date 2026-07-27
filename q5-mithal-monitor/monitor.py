@@ -9,7 +9,7 @@ import dns.resolver
 
 TARGET_URL = "https://mithal.space"
 TARGET_DOMAIN = "mithal.space"
-DATA_FILE = "/Users/mac/a1/mithal_monitor/data/metrics.json"
+DATA_FILE = "/Users/mac/a1/q5-mithal-monitor/data/metrics.json"
 
 def check_ssl(domain):
     context = ssl.create_default_context()

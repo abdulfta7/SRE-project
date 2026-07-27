@@ -159,5 +159,22 @@
         }
         tbody.innerHTML = rows;
     </script>
+
+    <!--
+    =====================================================================
+    Q5: Deployment Instructions (انشر الـ dashboard على ghaymah.systems)
+    =====================================================================
+    To deploy this dashboard on Ghaymah.systems:
+    1. Create a simple Nginx Dockerfile in this directory:
+       FROM nginx:alpine
+       COPY dashboard.html /usr/share/nginx/html/index.html
+       EXPOSE 80
+    2. Build and push the image:
+       docker build -t registry.ghaymah.systems/my-org/mithal-dashboard .
+       docker push registry.ghaymah.systems/my-org/mithal-dashboard
+    3. Deploy using Ghaymah CLI:
+       ghaymah deploy --name mithal-dashboard --image registry.ghaymah.systems/my-org/mithal-dashboard --port 80 --env production
+    =====================================================================
+    -->
 </body>
 </html>
