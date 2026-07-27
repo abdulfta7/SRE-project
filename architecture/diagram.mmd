@@ -1,0 +1,26 @@
+```mermaid
+graph TD
+    Client((Client Requests <br> 15,000 req/s)) --> WAF[Web Application Firewall]
+    WAF --> LB[ghaymah Load Balancer]
+
+    subgraph Auto-Scaling Group
+        direction LR
+        LB -->|Traffic Distribution| API1[myapp-api Container 1 <br> ~350 req/s]
+        LB --> API2[myapp-api Container 2 <br> ~350 req/s]
+        LB --> API3[myapp-api Container 3]
+        LB -.-> APIN[myapp-api Container N <br> Total: 43 Containers]
+    end
+
+    API1 --> BS1[(ghaymah Block Storage <br> /mnt/data)]
+    API2 --> BS2[(ghaymah Block Storage <br> /mnt/data)]
+    API3 --> BS3[(ghaymah Block Storage <br> /mnt/data)]
+    APIN --> BSN[(ghaymah Block Storage <br> /mnt/data)]
+
+    classDef container fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+    classDef lb fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    classDef storage fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+
+    class API1,API2,API3,APIN container;
+    class LB lb;
+    class BS1,BS2,BS3,BSN storage;
+```

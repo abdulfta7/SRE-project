@@ -1,0 +1,60 @@
+name: Build and Deploy to ghaymah.systems
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  REGISTRY: registry.ghaymah.systems
+  IMAGE_NAME: ${{ github.repository }}/myapp-api
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to ghaymah Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.GHAYMAH_USERNAME }}
+          password: ${{ secrets.GHAYMAH_TOKEN }}
+
+      - name: Build and push Docker image (Staging Tag)
+        uses: docker/build-push-action@v5
+        with:
+          context: ./api
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:staging-${{ github.sha }}
+
+  deploy-staging:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: Deploy to Staging
+        run: |
+          echo "Deploying staging-${{ github.sha }} to ghaymah systems..."
+          # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:staging-${{ github.sha }} --env staging
+
+  deploy-production:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+      # Manual approval is configured at the GitHub Environment level in repo settings.
+    steps:
+      - name: Retag image for production
+        uses: docker/build-push-action@v5
+        with:
+          context: ./api
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }},${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+      - name: Deploy to Production
+        run: |
+          echo "Deploying production-${{ github.sha }} to ghaymah systems..."
+          # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }} --env production

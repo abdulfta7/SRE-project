@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Ghaymah API Monitoring</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>نظام المراقبة السحابي (API)</h1>
+  
+  <div class="dashboard-container">
+    <div class="card">
+      <div class="card-title">حالة الخدمة</div>
+      <div id="status" class="card-value">
+        <span class="status-indicator unknown"></span>
+        <span class="text unknown">جاري الفحص...</span>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">زمن الاستجابة</div>
+      <div id="latency" class="card-value">
+        <span class="unknown">-</span> <span style="font-size:1rem; color:var(--text-muted)">ms</span>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">إجمالي الطلبات</div>
+      <div id="requests" class="card-value counter">0</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
