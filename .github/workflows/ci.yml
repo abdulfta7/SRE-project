@@ -1,0 +1,77 @@
+name: Build and Deploy to ghaymah.systems
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  REGISTRY: registry.ghaymah.systems
+  IMAGE_NAME: ${{ github.repository }}/myapp-api
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to ghaymah Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.GHAYMAH_USERNAME }}
+          password: ${{ secrets.GHAYMAH_TOKEN }}
+
+      - name: Build and push Docker image (Staging Tag)
+        uses: docker/build-push-action@v5
+        with:
+          context: ./q1-deploy-monitor
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:staging-${{ github.sha }}
+
+  deploy-staging:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: Deploy to Staging
+        run: |
+          echo "Deploying staging-${{ github.sha }} to ghaymah systems..."
+          # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:staging-${{ github.sha }} --env staging
+
+  deploy-production:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+      # Manual approval is configured at the GitHub Environment level in repo settings.
+    steps:
+      - name: Retag image for production
+        uses: docker/build-push-action@v5
+        with:
+          context: ./q1-deploy-monitor
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }},${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+      - name: Deploy to Production
+        run: |
+          echo "Deploying production-${{ github.sha }} to ghaymah systems..."
+          # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }} --env production
+
+# =====================================================================
+# Q3 Additional Requirements Documentation
+# =====================================================================
+#
+# 3. Difference between Staging and Production:
+# - Staging (`staging`): A pre-production environment used for QA and integration testing. 
+#   It uses sanitized/dummy data and is scaled down. Deploys happen automatically upon merging to main.
+# - Production (`production`): The live environment for real users. Contains sensitive, live data. 
+#   Requires strict access controls and a **Manual Approval** step in GitHub Actions before deployment.
+#
+# 4. Integration with Ghaymah CLI:
+# To deploy manually or from a runner using the CLI:
+# 1. Install: `curl -sL https://cli.ghaymah.systems/install.sh | bash`
+# 2. Login: `ghaymah login --token $GHAYMAH_TOKEN`
+# 3. Push: `docker push registry.ghaymah.systems/my-org/myapp-api:latest`
+# 4. Deploy: `ghaymah deploy --name myapp-api --image registry.ghaymah.systems/my-org/myapp-api:latest --port 8080 --env production`
