@@ -46,6 +46,15 @@ jobs:
       name: production
       # Manual approval is configured at the GitHub Environment level in repo settings.
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
       - name: Retag image for production
         uses: docker/build-push-action@v5
         with:
