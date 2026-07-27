@@ -88,5 +88,505 @@
     "ssl_days": 0,
     "dns_time_ms": 52.11,
     "search_time_ms": 602.43
+  },
+  {
+    "timestamp": "2026-07-27T11:37:03.086794Z",
+    "latency_ms": 624.27,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 56.56,
+    "search_time_ms": 619.76
+  },
+  {
+    "timestamp": "2026-07-27T11:38:04.688828Z",
+    "latency_ms": 628.86,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.1,
+    "search_time_ms": 632.49
+  },
+  {
+    "timestamp": "2026-07-27T11:39:06.301229Z",
+    "latency_ms": 623.69,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 88.79,
+    "search_time_ms": 634.17
+  },
+  {
+    "timestamp": "2026-07-27T11:40:07.946795Z",
+    "latency_ms": 635.46,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 225.86,
+    "search_time_ms": 603.87
+  },
+  {
+    "timestamp": "2026-07-27T11:41:09.708153Z",
+    "latency_ms": 627.15,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 90.3,
+    "search_time_ms": 636.98
+  },
+  {
+    "timestamp": "2026-07-27T11:42:11.457209Z",
+    "latency_ms": 626.53,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 50.95,
+    "search_time_ms": 606.73
+  },
+  {
+    "timestamp": "2026-07-27T11:43:13.036855Z",
+    "latency_ms": 617.99,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 55.53,
+    "search_time_ms": 606.02
+  },
+  {
+    "timestamp": "2026-07-27T11:44:14.625910Z",
+    "latency_ms": 590.18,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 56.09,
+    "search_time_ms": 779.32
+  },
+  {
+    "timestamp": "2026-07-27T11:45:16.357090Z",
+    "latency_ms": 622.8,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 49.89,
+    "search_time_ms": 603.99
+  },
+  {
+    "timestamp": "2026-07-27T11:46:17.946598Z",
+    "latency_ms": 600.1,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 45.57,
+    "search_time_ms": 598.27
+  },
+  {
+    "timestamp": "2026-07-27T11:47:19.504747Z",
+    "latency_ms": 619.94,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.94,
+    "search_time_ms": 611.56
+  },
+  {
+    "timestamp": "2026-07-27T11:48:21.107732Z",
+    "latency_ms": 631.71,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 49.9,
+    "search_time_ms": 630.31
+  },
+  {
+    "timestamp": "2026-07-27T11:49:22.717323Z",
+    "latency_ms": 602.33,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.3,
+    "search_time_ms": 624.3
+  },
+  {
+    "timestamp": "2026-07-27T11:50:24.294609Z",
+    "latency_ms": 625.57,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 45.16,
+    "search_time_ms": 652.7
+  },
+  {
+    "timestamp": "2026-07-27T11:51:25.918473Z",
+    "latency_ms": 628.19,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 96.09,
+    "search_time_ms": 599.03
+  },
+  {
+    "timestamp": "2026-07-27T11:52:27.542783Z",
+    "latency_ms": 600.4,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 133.11,
+    "search_time_ms": 597.77
+  },
+  {
+    "timestamp": "2026-07-27T11:53:29.176668Z",
+    "latency_ms": 595.65,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.03,
+    "search_time_ms": 633.62
+  },
+  {
+    "timestamp": "2026-07-27T11:54:30.755618Z",
+    "latency_ms": 630.22,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.42,
+    "search_time_ms": 598.93
+  },
+  {
+    "timestamp": "2026-07-27T11:55:32.357731Z",
+    "latency_ms": 595.73,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 55.62,
+    "search_time_ms": 611.74
+  },
+  {
+    "timestamp": "2026-07-27T11:56:33.938734Z",
+    "latency_ms": 603.04,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 128.63,
+    "search_time_ms": 636.97
+  },
+  {
+    "timestamp": "2026-07-27T11:57:35.624670Z",
+    "latency_ms": 632.07,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 56.03,
+    "search_time_ms": 609.05
+  },
+  {
+    "timestamp": "2026-07-27T11:58:37.235682Z",
+    "latency_ms": 784.88,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 107.84,
+    "search_time_ms": 743.48
+  },
+  {
+    "timestamp": "2026-07-27T11:59:39.290644Z",
+    "latency_ms": 625.66,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 75.51,
+    "search_time_ms": 601.99
+  },
+  {
+    "timestamp": "2026-07-27T12:00:40.899038Z",
+    "latency_ms": 632.26,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 51.51,
+    "search_time_ms": 630.98
+  },
+  {
+    "timestamp": "2026-07-27T12:01:42.514686Z",
+    "latency_ms": 631.38,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 51.45,
+    "search_time_ms": 633.39
+  },
+  {
+    "timestamp": "2026-07-27T12:02:44.126519Z",
+    "latency_ms": 595.89,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 55.1,
+    "search_time_ms": 607.47
+  },
+  {
+    "timestamp": "2026-07-27T12:03:45.700011Z",
+    "latency_ms": 628.68,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 345.13,
+    "search_time_ms": 628.87
+  },
+  {
+    "timestamp": "2026-07-27T12:04:47.605520Z",
+    "latency_ms": 595.16,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 54.14,
+    "search_time_ms": 596.12
+  },
+  {
+    "timestamp": "2026-07-27T12:05:49.153182Z",
+    "latency_ms": 638.61,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 68.6,
+    "search_time_ms": 624.99
+  },
+  {
+    "timestamp": "2026-07-27T12:06:50.806439Z",
+    "latency_ms": 630.53,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.31,
+    "search_time_ms": 600.51
+  },
+  {
+    "timestamp": "2026-07-27T12:07:52.388897Z",
+    "latency_ms": 589.64,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 101.14,
+    "search_time_ms": 631.45
+  },
+  {
+    "timestamp": "2026-07-27T12:08:54.026669Z",
+    "latency_ms": 592.99,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.59,
+    "search_time_ms": 635.35
+  },
+  {
+    "timestamp": "2026-07-27T12:09:55.617650Z",
+    "latency_ms": 597.51,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 126.24,
+    "search_time_ms": 661.49
+  },
+  {
+    "timestamp": "2026-07-27T12:10:57.319652Z",
+    "latency_ms": 593.34,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 56.5,
+    "search_time_ms": 594.35
+  },
+  {
+    "timestamp": "2026-07-27T12:11:58.880453Z",
+    "latency_ms": 612.49,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 112.74,
+    "search_time_ms": 628.21
+  },
+  {
+    "timestamp": "2026-07-27T12:13:00.529290Z",
+    "latency_ms": 599.24,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.38,
+    "search_time_ms": 599.28
+  },
+  {
+    "timestamp": "2026-07-27T12:14:02.080316Z",
+    "latency_ms": 595.21,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.39,
+    "search_time_ms": 634.69
+  },
+  {
+    "timestamp": "2026-07-27T12:15:03.684195Z",
+    "latency_ms": 627.95,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 51.57,
+    "search_time_ms": 634.26
+  },
+  {
+    "timestamp": "2026-07-27T12:16:05.297672Z",
+    "latency_ms": 622.42,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 105.85,
+    "search_time_ms": 637.32
+  },
+  {
+    "timestamp": "2026-07-27T12:17:06.959384Z",
+    "latency_ms": 592.18,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 51.27,
+    "search_time_ms": 600.99
+  },
+  {
+    "timestamp": "2026-07-27T12:18:08.522616Z",
+    "latency_ms": 631.23,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 92.27,
+    "search_time_ms": 620.37
+  },
+  {
+    "timestamp": "2026-07-27T12:19:10.178612Z",
+    "latency_ms": 621.54,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 84.56,
+    "search_time_ms": 638.26
+  },
+  {
+    "timestamp": "2026-07-27T12:20:11.839933Z",
+    "latency_ms": 602.69,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.65,
+    "search_time_ms": 632.72
+  },
+  {
+    "timestamp": "2026-07-27T12:21:13.430064Z",
+    "latency_ms": 629.74,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 80.97,
+    "search_time_ms": 632.45
+  },
+  {
+    "timestamp": "2026-07-27T12:22:15.074660Z",
+    "latency_ms": 606.76,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 51.93,
+    "search_time_ms": 637.39
+  },
+  {
+    "timestamp": "2026-07-27T12:23:16.670502Z",
+    "latency_ms": 595.66,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 221.83,
+    "search_time_ms": 637.03
+  },
+  {
+    "timestamp": "2026-07-27T12:24:18.442092Z",
+    "latency_ms": 632.6,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 44.08,
+    "search_time_ms": 611.2
+  },
+  {
+    "timestamp": "2026-07-27T12:25:20.050812Z",
+    "latency_ms": 639.87,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 56.29,
+    "search_time_ms": 616.07
+  },
+  {
+    "timestamp": "2026-07-27T12:26:21.662319Z",
+    "latency_ms": 593.32,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 56.1,
+    "search_time_ms": 604.75
+  },
+  {
+    "timestamp": "2026-07-27T12:27:23.238322Z",
+    "latency_ms": 593.73,
+    "status_code": 200,
+    "uptime": true,
+    "ssl_status": "Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+    "ssl_days": 0,
+    "dns_time_ms": 52.22,
+    "search_time_ms": 646.18
   }
 ]
