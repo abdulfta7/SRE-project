@@ -1,0 +1,4 @@
+Name: Abdoelfatah mosalm
+Role: SRE Engineer
+Project: Ghaymah Exam
+Skills: Docker, Python, Bash, CI/CD, Kubernetes, Cloud Monitoring
