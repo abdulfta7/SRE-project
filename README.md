@@ -11,6 +11,9 @@ This repository contains the complete submission for the Ghaymah SRE Examination
 - `common-mortakaz/`: Mortakaz integration documentation.
 - `common-qabilah/`: Qabilah profile info.
 
+## Real-time Dashboard
+![Real-time Dashboard](./dashboard.png)
+
 ## Live Links
 
 - 🌐 **Ghaymah Deployed Project**: [https://myapp-api-b3a8d6d48ac0.hosted.ghaymah.systems](https://myapp-api-b3a8d6d48ac0.hosted.ghaymah.systems)
@@ -19,8 +22,5 @@ This repository contains the complete submission for the Ghaymah SRE Examination
 ## Usage
 Refer to the individual markdown files in each folder for specific instructions and documentation.
 
-https://myapp-api-b3a8d6d48ac0.hosted.ghaymah.systems
 
-
-https://qabilah.com/profile/abdo-mosalm-9a65721a9/posts
 
