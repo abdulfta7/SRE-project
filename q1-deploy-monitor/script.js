@@ -3,7 +3,7 @@ let requestCount = 0;
 async function checkHealth() {
   const startTime = Date.now();
   try {
-    const response = await fetch('http://localhost:8080/health');
+    const response = await fetch('/health');
     const latency = Date.now() - startTime;
     requestCount++;
     
