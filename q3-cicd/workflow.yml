@@ -37,7 +37,9 @@ jobs:
       - name: Deploy to Staging
         run: |
           echo "Deploying staging-${{ github.sha }} to ghaymah systems..."
-          # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:staging-${{ github.sha }} --env staging
+          curl -sL https://cli.ghaymah.systems/install.sh | bash
+          ghaymah login --token ${{ secrets.GHAYMAH_TOKEN }}
+          ghaymah deploy --name myapp-api --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:staging-${{ github.sha }} --port 8080 --env staging
 
   deploy-production:
     needs: deploy-staging
@@ -65,7 +67,9 @@ jobs:
       - name: Deploy to Production
         run: |
           echo "Deploying production-${{ github.sha }} to ghaymah systems..."
-          # Example CLI command: ghaymah deploy --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }} --env production
+          curl -sL https://cli.ghaymah.systems/install.sh | bash
+          ghaymah login --token ${{ secrets.GHAYMAH_TOKEN }}
+          ghaymah deploy --name myapp-api --image ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:production-${{ github.sha }} --port 8080 --env production
 
 # =====================================================================
 # Q3 Additional Requirements Documentation
