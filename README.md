@@ -12,7 +12,8 @@ This repository contains the complete submission for the Ghaymah SRE Examination
 - `common-qabilah/`: Qabilah profile info.
 
 ## Real-time Dashboard
-![Real-time Dashboard](./dashboard.png)
+<img width="2048" height="1152" alt="Screenshot 2026-07-28 at 1 52 14 PM" src="https://github.com/user-attachments/assets/9895ca9c-7880-4362-b4ba-f4f568b4958b" />
+
 
 ## Live Links
 
