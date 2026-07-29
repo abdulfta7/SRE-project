@@ -1,3 +1,4 @@
+<img width="2048" height="1152" alt="Screenshot 2026-07-29 at 8 48 20 AM" src="https://github.com/user-attachments/assets/239ee6dc-3f51-465a-a49f-fc69791bdc26" />
 # Ghaymah Exam: Abdoelfatah mosalm (SRE)
 
 This repository contains the complete submission for the Ghaymah SRE Examination.
@@ -13,6 +14,7 @@ This repository contains the complete submission for the Ghaymah SRE Examination
 
 ## Real-time Dashboard
 <img width="2008" height="1119" alt="Screenshot 2026-07-28 at 1 54 33 PM" src="https://github.com/user-attachments/assets/536de219-9acb-49c7-a0c3-455f4065240f" />
+<img width="2048" height="1152" alt="Screenshot 2026-07-29 at 8 48 20 AM" src="https://github.com/user-attachments/assets/09815b4e-71f7-45f6-98ed-18c4435043b9" />
 
 
 ## Live Links
